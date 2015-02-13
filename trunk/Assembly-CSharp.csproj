@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{76AD8600-E3DF-23FB-F9C9-5DC7F25016C8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/TVO/Unity/Setup/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/TVO/Unity/Setup/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\ArrowController.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\CharacterController.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\CloudController.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\ProjectileDragging.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\ProjectileFollow.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\Resetter.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\ScoreController.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\TargetDamage.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\TrailController.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\Utils\ScreenUtils.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_DestroyOnContact.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_Explode.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_GameController.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_HatController.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_Restart.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_Score.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_SetParticleSortingLayer.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_StartGame.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GUIExamplesCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasicCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2dCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListenersCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingAllCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingAlphaFade.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingEverything.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingPunch.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingRigidbodyCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUniqueId.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TutorialPresentationFinished.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\UIExampleCS.cs" />
+     <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
+     <Compile Include="Assets\Scripts\BackgroundPropSpawner.cs" />
+     <Compile Include="Assets\Scripts\Bomb.cs" />
+     <Compile Include="Assets\Scripts\BombPickup.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\Gun.cs" />
+     <Compile Include="Assets\Scripts\HealthPickup.cs" />
+     <Compile Include="Assets\Scripts\LayBombs.cs" />
+     <Compile Include="Assets\Scripts\Pauser.cs" />
+     <Compile Include="Assets\Scripts\PickupSpawner.cs" />
+     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Remover.cs" />
+     <Compile Include="Assets\Scripts\Rocket.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ScoreShadow.cs" />
+     <Compile Include="Assets\Scripts\SetParticleSortingLayer.cs" />
+     <Compile Include="Assets\Scripts\Spawner.cs" />
+     <None Include="Assets\LeanTween\Examples\Shader\2dUnlitWithFade.shader" />
+     <None Include="Assets\LeanTween\ReadMe.txt" />
+     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
+     <None Include="Assets\Example Games\Angry Birds Style\_ReadMe.txt" />
+     <None Include="Assets\Example Games\Hat Trick - The Catch Game\_ReadMe.txt" />
+     <None Include="Assets\Example Games\Hat Trick - The Catch Game\Fonts\LuckiestGuy\LICENSE.txt" />
+     <None Include="Assets\Fonts\PressStart2P-Regular\OFL.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/TVO/Unity/Setup/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A27D8B55-D405-34B5-ACAA-2E5B398A0E51}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

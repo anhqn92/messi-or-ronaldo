@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 1f26f265ff3c19b4199eae5897536735
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sonic_hd_sprite_by_moongrape-d54boq6_0
+    21300002: sonic_hd_sprite_by_moongrape-d54boq6_1
+    21300004: sonic_hd_sprite_by_moongrape-d54boq6_2
+    21300006: sonic_hd_sprite_by_moongrape-d54boq6_3
+    21300008: sonic_hd_sprite_by_moongrape-d54boq6_4
+    21300010: sonic_hd_sprite_by_moongrape-d54boq6_5
+    21300012: sonic_hd_sprite_by_moongrape-d54boq6_6
+    21300014: sonic_hd_sprite_by_moongrape-d54boq6_7
+    21300016: sonic_hd_sprite_by_moongrape-d54boq6_8
+    21300018: sonic_hd_sprite_by_moongrape-d54boq6_9
+    21300020: sonic_hd_sprite_by_moongrape-d54boq6_10
+    21300022: sonic_hd_sprite_by_moongrape-d54boq6_11
+    21300024: sonic_hd_sprite_by_moongrape-d54boq6_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_8
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 232
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 112
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 112
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_hd_sprite_by_moongrape-d54boq6_12
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 112
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
